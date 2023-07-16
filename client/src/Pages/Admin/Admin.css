@@ -1,0 +1,91 @@
+.notificationSubmit{
+    background-color:#007bff ;
+    border-radius: 5px;
+    margin: 0.5rem;
+    width: 9rem;
+    border: #fe8402 solid 2px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20%;
+    color: black;
+    text-decoration: none;
+    padding-top: 10px;
+}
+.btn-danger1{
+  width: 120px !important;
+  height: 60px;
+/* padding: 20px; */
+}
+
+.notificationSubmit:hover{
+    background-color: #fe8402;
+    border: #007bff solid 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.tableContainer {
+    overflow-x: auto;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .tableContainer table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .tableContainer .background th,
+  .tableContainer .background td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+
+  .tableContainer .background th {
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+
+  .tableContainer .background td {
+    text-align: center;
+  }
+
+  .tableContainer .actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tableContainer .actions button,
+  .tableContainer .actions a {
+    margin: 3px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .tableContainer table {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .tableContainer table > * {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .tableContainer .background th,
+    .tableContainer .background td {
+      flex: 1 0 50%;
+      text-align: center;
+    }
+
+    .tableContainer .actions {
+      flex-wrap: nowrap;
+    }
+
+    .tableContainer .actions button,
+    .tableContainer .actions a {
+      flex: 1 0 50%;
+    }
+  }

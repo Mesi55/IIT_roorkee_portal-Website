@@ -1,0 +1,31 @@
+.contributionStyling{
+    line-height: 2;
+    text-align: justify;
+    background-color: #FF8500;
+    opacity: 0.8;
+    color: black;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.mesiEdit{
+    width: 300px;
+    height: 300px;
+}
+.samiEdit{
+    width: 300px;
+    height: 300px;
+}
+.RediatEdit{
+    width: 300px;
+    height: 300px;
+}
+.contributionStyling2{
+       background-color: #FF8500;
+       opacity: 0.9;
+}
+i{
+    color: white;
+}
+.akafiDev{
+    border-radius: 15px;
+}

@@ -1,0 +1,29 @@
+
+.cardAkafi{
+  width: 18rem;
+}
+.passedImage{
+ width: 286px;
+ height: 150px;
+}
+.goods{
+ /* height: 300px; */
+ justify-content: center;
+}
+.inputs{
+ max-width: 100%;
+ padding: 40px;
+
+}
+/* .passedImage:hover{
+    transform: scale(2) translateX(25%) translateY(30%);
+    border-radius: 5PX;
+    transform: rotateX('angle');
+    transform: rotateY('10');
+  } */
+/* .passedImageRight:hover{
+    transform: scale(2) translateX(-25%) translateY(30%);
+    border-radius: 5PX;
+    transform: rotateX('angle');
+    transform: rotateY('10');
+  } */

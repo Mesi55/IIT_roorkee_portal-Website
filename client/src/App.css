@@ -1,0 +1,5 @@
+@media (max-width: 305px) {
+    *{
+      font-size: calc(10px + 1vmin);
+    }
+  }

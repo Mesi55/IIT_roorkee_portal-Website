@@ -1,0 +1,64 @@
+
+    #searchPhd{
+      margin: 2%;
+  width:500px;
+      height: 50px;
+      border-radius: 15px;
+      border: 1px solid salmon;
+   }
+   
+   #searchPhd ::placeholder{
+       text-align: end;
+       color: silver;
+   }
+   .TitleFromStaff{
+       text-decoration: underline;
+   }
+   .TitleFromStaff {
+    text-align: center;
+  }
+  .border{
+    font-size: 12px !important;
+  }
+ 
+
+    .toShowStaffForward {
+       width:100% !important;
+        margin: auto !important;
+        padding: 0 !important;
+        justify-content: center;
+    }     
+    @media (max-width: 500px) {
+      .tables{
+       white-space: nowrap;
+      
+      }.border{
+        font-size: 12px !important;
+        width: 90vh;
+        justify-content: center;
+      }.secondtable{
+        display: block !important;
+      }
+      .toShowStaffForward {
+        width: 90vh;
+         margin: auto !important;
+         padding: 0 !important;
+         justify-content: center;
+     }     
+    }
+    @media (max-width: 540px) {
+      .tables{
+       white-space: nowrap;
+      
+      }.border{
+        font-size: 12px !important;
+        width: 110vh;
+        justify-content: center;
+      }
+      .toShowStaffForward {
+        width: 100vh;
+         margin: auto !important;
+         padding: 0 !important;
+         justify-content: center;
+     }     
+    }

@@ -1,0 +1,32 @@
+
+.main-box-wraper{
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.box {
+    border: 1px solid #ccc;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: black;
+    max-width: 500px;
+    margin: 20px;
+  }
+  
+  .box h5 {
+    color: black;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .box a {
+    display: block;
+    color: blue;
+    margin-bottom: 10px;
+  }
+  
+  .box p {
+    margin-top: 10px;
+  }
+  

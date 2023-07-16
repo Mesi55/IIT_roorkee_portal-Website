@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    .border {
+      border: none;
+    }
+
+    .border,
+    .border + .border {
+      border-bottom: 1px solid #ddd;
+    }}
